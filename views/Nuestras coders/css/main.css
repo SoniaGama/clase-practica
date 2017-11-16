@@ -1,0 +1,35 @@
+.coders{
+  font-family: 'Cutive Mono', monospace;
+  margin-bottom: 0%;
+  padding: 1px;
+}
+
+hr{
+  border-style: solid;
+  border-width: 3px;
+  margin-right: 93%;
+}
+
+div{
+  float: left;
+}
+
+.images{
+  width: 100%;
+}
+
+.gallery{
+  height: auto;
+  margin: 20px 20px 0px 10px;
+  max-width: 200px;
+}
+
+.text{
+  bottom: 30px;
+  color: #fff;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 50%;
+  left: 100px;
+  margin: 0%;
+  position: relative;
+}
