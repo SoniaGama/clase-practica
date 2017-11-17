@@ -16,9 +16,10 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   font-family: 'Raleway', sans-serif;
+
 }
 
-img {
+img{
   vertical-align: middle;
 }
 
@@ -53,10 +54,6 @@ img {
   margin-top: 0px;
 }
 
-.m-0 {
-  margin: 0px;
-}
-
 a{
   color: #373B47;
   text-decoration: none;
@@ -72,6 +69,10 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+*{
+  margin: 0px;
+}
 
 header nav a{
   display: inline-block;
@@ -92,14 +93,74 @@ header{
   background-color: #fff;
   width: 100%;
   height: 80px;
+  z-index: 100;
 }
 
-section div img{
+section img{
    width: 100%;
-   margin-top: 80px;
+   padding-top: 80px;
 }
 
-div h2 h3{
-  display: block;
-  bottom: 100px;
+.portada{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 28%;
+  color: white;
+}
+
+.portada h1{
+  font-size: 300%;
+  margin-top: 5%;
+
+}
+
+.portada p {
+  font-size: 90%;
+  margin-bottom: 6%;
+}
+
+.portada a{
+    padding: 1%;
+    background-color: #2ACB72;
+    color: white;
+    font-size: 90%;
+}
+
+.services div{
+  float: left;
+  width: 15%;
+  height:auto;
+  text-align: center;
+  margin-left: 13.5%;
+  color: white;
+}
+
+.services div img{
+  padding-bottom: 15%;
+}
+
+.services{
+  background-color: #F07B71;
+  width: 100%;
+  height: 650px;
+}
+
+.services .design > h4, h2{
+  text-align: center;
+  padding-top: 3%;
+  color: white;
+}
+
+.work h2, h4{
+  color: initial;
+}
+
+
+footer{
+  background-color: #363A46;
+  text-align: center;
+  color: #fff;
+  padding: 1%;
+  font-size: 90%;
 }
